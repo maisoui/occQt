@@ -41,7 +41,7 @@ public:
     //! constructor.
     OccView(QWidget* parent);
 
-    const Handle_AIS_InteractiveContext& getContext() const;
+    const Handle(AIS_InteractiveContext)& getContext() const;
 
 signals:
     void selectionChanged(void);
